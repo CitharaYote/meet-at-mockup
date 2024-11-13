@@ -46,7 +46,7 @@ function App() {
             </motion.h1>
           </motion.div>
           <div>
-            <motion.ul className="space-y-4 text-lg">
+            <motion.ul className="space-y-8 text-xl w-auto">
               <motion.li
                 initial={{ opacity: 0, y: 20, scale: 1 }}
                 animate={{
@@ -57,20 +57,21 @@ function App() {
                     duration: 0.5,
                   },
                 }}
-                whileHover={{ scale: 1.1 }}
-                className="flex flex-row items-center gap-x-2 cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                className="flex flex-row items-center gap-x-2 cursor-pointer group relative max-w-lg"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  className="bi bi-check-lg"
+                  className="bi bi-check-lg opacity-75"
                   viewBox="0 0 16 16"
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
                 </svg>
                 Wow look!
+                <span className="group-hover:w-full w-0 opacity-30 transition-all h-0.5 bg-white absolute bottom-0" />
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 20, scale: 1 }}
@@ -82,20 +83,21 @@ function App() {
                     duration: 0.5,
                   },
                 }}
-                whileHover={{ scale: 1.1 }}
-                className="flex flex-row items-center gap-x-2 cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                className="flex flex-row items-center gap-x-2 cursor-pointer group relative max-w-lg"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  className="bi bi-check-lg"
+                  className="bi bi-check-lg opacity-75"
                   viewBox="0 0 16 16"
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
                 </svg>
                 This is the
+                <span className="group-hover:w-full w-0 opacity-30 transition-all h-0.5 bg-white absolute bottom-0" />
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 20, scale: 1 }}
@@ -107,20 +109,21 @@ function App() {
                     duration: 0.5,
                   },
                 }}
-                whileHover={{ scale: 1.1 }}
-                className="flex flex-row items-center gap-x-2 cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                className="flex flex-row items-center gap-x-2 cursor-pointer group relative max-w-lg"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  className="bi bi-check-lg"
+                  className="bi bi-check-lg opacity-75"
                   viewBox="0 0 16 16"
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
                 </svg>
                 Rule of 3!
+                <span className="group-hover:w-full w-0 opacity-30 transition-all h-0.5 bg-white absolute bottom-0" />
               </motion.li>
             </motion.ul>
           </div>
