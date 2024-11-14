@@ -1,13 +1,9 @@
-import { useRef, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { useState } from "react";
 import "./App.css";
 import { motion } from "framer-motion";
 
 function App() {
   const [hasScrolled, setHasScrolled] = useState<boolean>(false);
-
-  const section1Ref = useRef(null);
 
   window.onscroll = () => {
     if (window.scrollY > 0) {
@@ -160,7 +156,7 @@ function App() {
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
               />
             </svg>
@@ -213,11 +209,11 @@ function App() {
             viewBox="0 0 16 16"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
             />
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
             />
           </svg>
@@ -231,11 +227,11 @@ function App() {
             viewBox="0 0 16 16"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
             />
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
             />
           </svg>
@@ -278,7 +274,7 @@ function App() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: -100, scale: 1 }}
+          initial={{ opacity: 0, x: 100, scale: 1 }}
           whileInView={{ opacity: 1, x: 0 }}
           whileHover={{
             scale: 1.05,
@@ -360,11 +356,11 @@ function App() {
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z"
               />
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"
               />
             </svg>
@@ -378,7 +374,7 @@ function App() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: -100, scale: 1 }}
+          initial={{ opacity: 0, x: 100, scale: 1 }}
           whileInView={{ opacity: 1, x: 0 }}
           whileHover={{
             scale: 1.05,
