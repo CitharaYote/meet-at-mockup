@@ -6,6 +6,8 @@ This repository contains a front-end prototype built with Vite, React, TypeScrip
 
 ## Preview
 
+You can access a demo of the mockup [here](https://citharayote.github.io/meet-at-mockup/)!
+
 ![Project screenshot](images/screenshot-1.png)
 
 ## Project Structure
